@@ -12,3 +12,5 @@ Consigli
 Margini e padding di row e e col non vanno mai modificati, altrimenti la griglia si romperà e non funzionerà più correttamente.
 In allegato, avete tutto il materiale, sia i layouts smartphone, tablet e desktop che le immagini. Ma quest'ultime le utilizzerete lunedì.
 Buon Lavoro!
+
+ESERCIZIO CONSEGNATO
