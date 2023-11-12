@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.height200{
+    height: 200px;
+}
+
+.height400{
+    height: 400px;
+}
+
+.height80{
+    height: 80px;
+}
