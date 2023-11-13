@@ -4,3 +4,55 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#profile, #about{
+    background-color: aquamarine;
+}
+
+.hamburger{
+    border: 1px solid gray;
+}
+
+.navlist{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.fa-star{
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+
+.fa-star:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: white;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .fa-star:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: white;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  .card-content{
+    border-radius: 5%;
+  }
