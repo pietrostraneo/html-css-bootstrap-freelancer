@@ -6,53 +6,82 @@
 
 header{
     height: 80px;
-    background-color: black;
     display: flex;
     align-items: center;
 }
 
 #profile, #about{
-    background-color: aquamarine;
+    background-color: #19BC9B;
 }
 
-.hamburger{
+.fa-bars{
     border: 1px solid gray;
+    padding: 10px;
 }
 
-.navlist{
+.navlist ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
 }
 
+.profile-content{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar{
+    width: 25%;
+    margin-bottom: 15px;
+}
+
 .fa-star{
-    text-align: center;
-    font-size: 30px;
-    max-width: 600px;
-    position: relative;
-  }
+    font-size: 20px;
+    margin: 20px auto;
+}
 
-.fa-star:before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 5px;
-    background: white;
-    left: 0;
-    top: 50%;
-    position: absolute;
-  }
-  .fa-star:after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 5px;
-    background: white;
-    right: 0;
-    top: 50%;
-    position: absolute;
-  }
-
-  .card-content{
+  /* PORTFOLIO */
+  .card-content img{
     border-radius: 5%;
+  }
+
+  /* ABOUT */
+
+  .about-content p{
+    font-size: 21px;
+  }
+
+  /* CONTACT ME */
+
+  #name, #mail, #tel, #mess{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 50px;
+  }
+
+  #mess{
+    min-height: 150px;
+  }
+
+  /* FOOTER */
+
+  #social{
+    background-color: #3B536D;
+  }
+
+  #social i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  #copyright, header{
+    background-color: #2C3E4F;
+  }
+
+  #copyright{
+    font-size: 10px;
   }

@@ -16,15 +16,15 @@
             <div class="row">
                 <div class="col-6">
                     <div class="header-content text-white">
-                        <h2>START BOOTSTRAP</h2>
+                        <h4>START BOOTSTRAP</h4>
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="header-content text-white flex-">
+                    <div class="header-content text-white justify-content-end d-flex">
                         <div class="hamburger d-md-none">
                             <i class="fas fa-bars"></i>
                         </div>
-                        <div class="navlist d-sm-none d-md-flex">
+                        <div class="navlist d-none d-md-flex">
                             <ul>
                                 <li>PORTFOLIO</li>
                                 <li>ABOUT</li>
@@ -44,12 +44,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="content text-center text-white">
+                        <div class="profile-content text-center text-white d-flex">
                             <div class="avatar">
-                                <img src="./img/avatar.svg" alt="avatar">
+                                <img src="./img/avatar.svg" alt="avatar" class="img-fluid">
                             </div>
                             <h2>START BOOTSTRAP</h2>
                             <i class="fas fa-star"></i>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                         </div>
                     </div>
                 </div>
@@ -59,9 +60,9 @@
         <!-- PORTFOLIO -->
         <section id="portfolio">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row mt-2 gy-4">
                     <div class="col-12">
-                        <div class="content">
+                        <div class="content text-center">
                             <h2>PORTFOLIO</h2>
                             <i class="fas fa-star"></i>
                         </div>
@@ -103,17 +104,29 @@
         <!-- ABOUT -->
         <section id="about">
             <div class="container">
-                <div class="row">
+                <div class="row mt-4 p-5">
                     <div class="col-12">
-                        <div class="content">
-
+                        <div class="about-content text-center text-white">
+                            <h2>ABOUT</h2>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="content"></div>
+                        <div class="about-content text-white">
+                            <p>Freelancer is a free boostrap theme created by Start Bootstrap.
+                                The download includes the complete source files incuding HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                            </p>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="content"></div>
+                        <div class="about-content text-white">
+                            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="about-content text-center">
+                            <button class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,10 +135,22 @@
         <!-- CONTACT -->
         <section id="contact">
             <div class="container">
-                <div class="row">
-                    <div class="col12">
-                        <div class="content">
-
+                <div class="row p-5">
+                    <div class="col-12">
+                        <div class="contact-content text-center">
+                            <h2>CONTACT ME</h2>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="contact-content mt-5">
+                            <form action="#">
+                                <input type="text" name="name" id="name" placeholder="Name">
+                                <input type="email" name="mail" id="mail" placeholder="Email Address">
+                                <input type="tel" name="tel" id="tel" placeholder="Phone Number">
+                                <textarea name="mess" id="mess" cols="30" rows="10" placeholder="Message"></textarea>
+                                <input type="submit" value="Send" class="btn btn-success">
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -139,20 +164,28 @@
         <!-- SOCIAL -->
         <section id="social">
             <div class="container">
-                <div class="row">
+                <div class="row text-center text-white p-3">
                     <div class="col-12 col-md-4">
-                        <div class="content">
-                            
+                        <div class="social-content mt-4">
+                            <p>LOCATION</p>
+                            <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="content">
-
+                        <div class="social-content mt-4">
+                            <p>AROUND THE WEB</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="content">
-
+                        <div class="social-content mt-4">
+                            <p>ABOUT FREELANCER</p>
+                            <p>Freelance is a free to use, open source Bootstrap
+                                theme created by <a href="#">Start Bootstrap</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -162,10 +195,10 @@
         <!-- COPYRIGHT -->
         <section id="copyright">
             <div class="container">
-                <div class="row">
+                <div class="row p-3">
                     <div class="col-12">
-                        <div class="content">
-
+                        <div class="content text-center text-white">
+                            <p>Copyright &copy; Your Website 2019</p>
                         </div>
                     </div>
                 </div>
